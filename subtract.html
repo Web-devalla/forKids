@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Вычитание</title>
+</head>
+<body>
+    <audio src="audio/wrong.mp3" id="wrong"></audio>
+    <audio src="audio/correct.mp3" id="correct"></audio>
+    <header>
+        <div class="container">
+            <h1>Математика для детей</h1>
+            <ul>
+                <li ><a href="index.html">Сложение</a></li>
+                <li class="current"><a href="subtract.html">Вычитание</a></li>
+                <li ><a href="multiplay.html">Умножение</a></li>
+                <li ><a href="divide.html">Деление</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="equation">
+            <p id="num1" style="color: #fe4a49;">1</p>
+            <p style="color: #2ab7ca;">-</p>
+            <p id="num2" style="color: #fed766;">1</p>
+            <p style="color: #fe4a49;">=</p>
+            <p style="color: gray;">?</p>
+        </div>
+        <div class="answer-options">
+            <p id="option1">1</p>
+            <p id="option2">2</p>
+            <p id="option3">3</p>
+        </div>
+    </div>
+    <div class="score">
+        <div class="win">
+            0
+        </div>
+        <div>:</div>
+        <div class="loss">
+            0
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/subtract.js"></script>
+</body>
+</html>
